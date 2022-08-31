@@ -2547,6 +2547,201 @@ hr {
     margin-top: 2rem;
   }
 }
+.cid-tg66pveC2O {
+  padding-top: 5rem;
+  padding-bottom: 7rem;
+  background-color: #ffffff;
+  direction: ltr;
+}
+.cid-tg66pveC2O .mbr-overlay {
+  z-index: 1;
+}
+.cid-tg66pveC2O .title-item {
+  flex-wrap: nowrap;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+}
+@media (max-width: 767px) {
+  .cid-tg66pveC2O .title-item {
+    margin-bottom: 30px;
+  }
+}
+.cid-tg66pveC2O .title-icon-box {
+  width: 100%;
+  max-width: 660px;
+  margin: 0 auto 32px;
+}
+.cid-tg66pveC2O .title-icon-box .mbr-iconfont {
+  color: #14287f;
+}
+.cid-tg66pveC2O .mbr-section-title {
+  max-width: 660px;
+  margin: 0 auto 12px;
+}
+.cid-tg66pveC2O .mbr-text {
+  max-width: 660px;
+  margin: 0 auto;
+  color: #555555;
+}
+.cid-tg66pveC2O .carousel {
+  margin-bottom: 80px;
+}
+.cid-tg66pveC2O .carousel,
+.cid-tg66pveC2O .carousel-inner {
+  display: flex;
+  align-items: center;
+}
+.cid-tg66pveC2O .item-wrapper {
+  width: 100%;
+}
+.cid-tg66pveC2O .carousel-caption {
+  bottom: 40px;
+  position: static;
+  padding: 30px;
+  text-align: left;
+  background-color: #ffffff;
+  border: 1px solid #EEEEEE;
+  border-radius: 10px;
+}
+@media (max-width: 767px) {
+  .cid-tg66pveC2O .carousel-caption {
+    padding: 15px;
+  }
+}
+.cid-tg66pveC2O .carousel-control:hover {
+  background: #1b1b1b;
+  color: #fff;
+  opacity: 0;
+}
+.cid-tg66pveC2O .mobi-mbri-arrow-next {
+  margin-left: 5px;
+}
+.cid-tg66pveC2O .mobi-mbri-arrow-prev {
+  margin-right: 5px;
+}
+@media (max-width: 767px) {
+  .cid-tg66pveC2O .container .carousel-control {
+    margin-bottom: 0;
+  }
+  .cid-tg66pveC2O .content-slider-wrap {
+    width: 100% !important;
+  }
+}
+.cid-tg66pveC2O .container .carousel-indicators {
+  margin-bottom: 3px;
+}
+.cid-tg66pveC2O .carousel-control {
+  top: 50%;
+  width: 60px;
+  height: 60px;
+  margin-top: -1.5rem;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid #fff;
+  border-radius: 50%;
+  transition: all 0.3s;
+  opacity: 0;
+}
+.cid-tg66pveC2O .carousel-control.carousel-control-prev {
+  left: 0;
+  margin-left: 2.5rem;
+}
+.cid-tg66pveC2O .carousel-control.carousel-control-next {
+  right: 0;
+  margin-right: 2.5rem;
+}
+@media (max-width: 767px) {
+  .cid-tg66pveC2O .carousel-control {
+    top: auto;
+    bottom: 50%;
+    transform: translateY(50%);
+  }
+}
+.cid-tg66pveC2O .carousel-indicators {
+  position: absolute;
+  bottom: -80px;
+  margin-top: 40px;
+  margin-bottom: 20px !important;
+}
+.cid-tg66pveC2O .carousel-indicators li {
+  height: 6px;
+  width: 6px;
+  margin: 3px 10px;
+  background-color: transparent;
+  border: 2px solid #111111;
+  border-radius: 50%;
+  opacity: 1;
+  transition: all 0.3s;
+}
+.cid-tg66pveC2O .carousel-indicators li.active,
+.cid-tg66pveC2O .carousel-indicators li:hover {
+  background-color: #313a71;
+  border: 2px solid #313a71;
+}
+.cid-tg66pveC2O .carousel-indicators li::after,
+.cid-tg66pveC2O .carousel-indicators li::before {
+  content: none;
+}
+.cid-tg66pveC2O .carousel-indicators.ie-fix {
+  left: 50%;
+  display: block;
+  width: 60%;
+  margin-left: -30%;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .cid-tg66pveC2O .carousel-indicators {
+    display: none !important;
+  }
+}
+.cid-tg66pveC2O .mbr-section-subtitle {
+  color: #555555;
+  text-align: right;
+}
+.cid-tg66pveC2O .name-text {
+  color: #111111;
+}
+.cid-tg66pveC2O .prof-text {
+  color: #ffd700;
+  font-style: italic;
+}
+.cid-tg66pveC2O .item-menu-overlay {
+  display: none !important;
+}
+.cid-tg66pveC2O .user-container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+@media (max-width: 767px) {
+  .cid-tg66pveC2O .user-container {
+    padding-top: 15px;
+  }
+}
+.cid-tg66pveC2O .user-wrap {
+  display: flex;
+  align-items: center;
+  padding-right: 1rem;
+}
+.cid-tg66pveC2O .avatar-img {
+  position: relative;
+  margin-right: 20px;
+}
+.cid-tg66pveC2O .avatar-img img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.cid-tg66pveC2O .icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cid-tg66pveC2O .icon-box .mbr-iconfont {
+  color: #555555;
+}
 .cid-t1bL6fYYQC {
   padding-top: 30px;
   padding-bottom: 30px;
