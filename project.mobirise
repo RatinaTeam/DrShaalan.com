@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "doctors.html",
     "theme": {
       "name": "studiom4",
       "title": "StudioM4",
@@ -253,14 +253,14 @@
     ],
     "imageResize": true,
     "favicon": "@PROJECT_PATH@/assets/images/logo-icon-100x100.png",
-    "mbrsiteDomain": "hwnsaivf5y",
+    "mbrsiteDomain": "kcl85fzffj",
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 69,
+    "uniqCompNum": 70,
     "versionPublish": "5.4.1",
     "screenshot": "screenshot.png",
     "global_footer_custom": "<script  src=\"https://cdn.ratina.co/js/helper-v11.js?c=b&l=en\" ></script>",
@@ -2716,9 +2716,11 @@
           },
           "_name": "team1",
           "_sourceTheme": "conferencem4",
-          "_customHTML": "<section class=\"team1 conferencem4_team1\" group=\"Teams\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Card</header>\n        <input type=\"range\" inline title=\"Card Height\" name=\"cardHeight\" min=\"200\" max=\"500\" step=\"20\" value=\"360\">\n        <input type=\"range\" inline title=\"Card Count\" name=\"cardCount\" min=\"1\" max=\"8\" step=\"1\" value=\"4\">\n        <header>Social Icon</header>\n        <input type=\"color\" title=\"Border Color\" value=\"#ffffff\" name=\"borderColor\" condition=\"socialCount > 0\">\n        <input type=\"range\" inline title=\"Social Count\" name=\"socialCount\" min=\"0\" max=\"4\" step=\"1\" value=\"0\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/conferencem4/components/_images/conference28_1920.jpg\">\n            <input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#149dcc\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row title__wrap\">\n            <div class=\"title__block\" mbr-class=\"{'col-sm-6' : showButtons, 'col-sm-12' : !showButtons}\">\n                <h3 class=\"mbr-section-subtitle mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">MENTORS</h3>\n                <h2 class=\"mbr-section-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">الاطباء</h2>\n            </div>\n            <div class=\"col-sm-6 buttons\" mbr-if=\"showButtons\">\n                <div class=\"mbr-section-btn\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-sm btn-secondary-outline\" href=\"#\" data-app-placeholder=\"Type Text\">View All<span class=\"mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn\"></span></a></div>\n            </div>\n        </div>\n        <div class=\"row wrap justify-content-center\" mbr-list mbr-list-grow=\"cardCount\">\n            <div class=\"col-lg-3 col-sm-6\">\n                <div class=\"image\">\n                    <a href=\"javascript:open_page('dr-zid');\"><img src=\"@PROJECT_PATH@/assets/images/whatsapp-image-2022-09-24-at-6.21.12-pm-588x715.jpeg\" alt title></a>\n                    <div class=\"text__block text-white\">\n                        <p class=\"text__title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".text__title, .social__wrap\"><a href=\"javascript:open_page('dr-zid');\" class=\"text-success\">د.زيد الشعلان</a></p>\n                        <p class=\"text__descr mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".text__descr\">جراحة الأنف و الأذن</p>\n                        <div class=\"social__wrap\" mbr-list mbr-list-grow=\"socialCount\" mbr-if=\"socialCount > 0\">\n                            <div class=\"icons\">\n                                <div class=\"border__radius\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-twitter socicon\" style=\"font-size: 20px;\"></span>\n                                </div>\n                            </div>\n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-lg-3 col-sm-6\">\n                <div class=\"image\">\n                    <a href=\"javascript:open_page('dr-ayman');\"><img src=\"@PROJECT_PATH@/assets/images/whatsapp-image-2022-09-24-at-6.21.11-pm-1-570x853.jpeg\" alt title></a>\n                    <div class=\"text__block text-white\">\n                        <p class=\"text__title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".text__title, .social__wrap\"><a href=\"javascript:open_page('dr-ayman');\" class=\"text-white\">أيمن أمونة</a></p>\n                        <p class=\"text__descr mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".text__descr\">النطق و التخاطب</p>\n                        <div class=\"social__wrap\" mbr-list mbr-list-grow=\"socialCount\" mbr-if=\"socialCount > 0\">\n                            <div class=\"icons\">\n                                <div class=\"border__radius\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-twitter socicon\" style=\"font-size: 20px;\"></span>\n                                </div>\n                            </div>\n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-lg-3 col-sm-6\">\n                <div class=\"image\">\n                    <a href=\"javascript:open_page('dr-horiya');\"><img src=\"@PROJECT_PATH@/assets/images/whatsapp-image-2022-09-24-at-6.21.11-pm-476x713.jpeg\" alt title></a>\n                    <div class=\"text__block text-white\">\n                        <p class=\"text__title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".text__title, .social__wrap\"><a href=\"javascript:open_page('dr-horiya');\" class=\"text-white\">د.حورية مهند</a></p>\n                        <p class=\"text__descr mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".text__descr\">النطق والتخاطب</p>\n                        <div class=\"social__wrap\" mbr-list mbr-list-grow=\"socialCount\" mbr-if=\"socialCount > 0\">\n                            <div class=\"icons\">\n                                <div class=\"border__radius\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-twitter socicon\" style=\"font-size: 20px;\"></span>\n                                </div>\n                            </div>\n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-lg-3 col-sm-6\">\n                <div class=\"image\">\n                    <a href=\"javascript:open_page('dr-isha');\"><img src=\"@PROJECT_PATH@/assets/images/whatsapp-image-2022-09-24-at-6.21.11-pm-570x853.jpeg\" alt title></a>\n                    <div class=\"text__block text-white\">\n                        <p class=\"text__title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".text__title, .social__wrap\"><a href=\"javascript:open_page('dr-isha');\" class=\"text-white\">د.عائشة ماجد حمايدة</a></p>\n                        <p class=\"text__descr mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".text__descr\">النطق والتخاطب</p>\n                        <div class=\"social__wrap\" mbr-list mbr-list-grow=\"socialCount\" mbr-if=\"socialCount > 0\">\n                            <div class=\"icons\">\n                                <div class=\"border__radius\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-twitter socicon\" style=\"font-size: 20px;\"></span>\n                                </div>\n                            </div>\n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n\n\n\n    </div>\n</section>",
+          "_customHTML": "<section class=\"team1 conferencem4_team1\" group=\"Teams\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Card</header>\n        <input type=\"range\" inline title=\"Card Height\" name=\"cardHeight\" min=\"200\" max=\"500\" step=\"20\" value=\"360\">\n        <input type=\"range\" inline title=\"Card Count\" name=\"cardCount\" min=\"5\" max=\"8\" step=\"1\" value=\"4\">\n        <header>Social Icon</header>\n        <input type=\"color\" title=\"Border Color\" value=\"#ffffff\" name=\"borderColor\" condition=\"socialCount > 0\">\n        <input type=\"range\" inline title=\"Social Count\" name=\"socialCount\" min=\"0\" max=\"4\" step=\"1\" value=\"0\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/conferencem4/components/_images/conference28_1920.jpg\">\n            <input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#149dcc\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row title__wrap\">\n            <div class=\"title__block\" mbr-class=\"{'col-sm-6' : showButtons, 'col-sm-12' : !showButtons}\">\n                <h3 class=\"mbr-section-subtitle mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">MENTORS</h3>\n                <h2 class=\"mbr-section-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">الاطباء</h2>\n            </div>\n            <div class=\"col-sm-6 buttons\" mbr-if=\"showButtons\">\n                <div class=\"mbr-section-btn\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-sm btn-secondary-outline\" href=\"#\" data-app-placeholder=\"Type Text\">View All<span class=\"mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn\"></span></a></div>\n            </div>\n        </div>\n        <div class=\"row wrap justify-content-center\" mbr-list mbr-list-grow=\"cardCount\">\n            <div class=\"col-lg-3 col-sm-6\">\n                <div class=\"image\">\n                    <a href=\"javascript:open_page('dr-shaalan');\"><img src=\"@PROJECT_PATH@/assets/images/sparsh-doctor-placeholder-02-1-392x507.png\" alt title></a>\n                    <div class=\"text__block text-white\">\n                        <p class=\"text__title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".text__title, .social__wrap\">د.عبدالعزيز الشعلن</p>\n                        <p class=\"text__descr mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".text__descr\">جراحة الأنف و الأذن</p>\n                        <div class=\"social__wrap\" mbr-list mbr-list-grow=\"socialCount\" mbr-if=\"socialCount > 0\">\n                            <div class=\"icons\">\n                                <div class=\"border__radius\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-twitter socicon\" style=\"font-size: 20px;\"></span>\n                                </div>\n                            </div>\n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-lg-3 col-sm-6\">\n                <div class=\"image\">\n                    <a href=\"javascript:open_page('dr-zid');\"><img src=\"@PROJECT_PATH@/assets/images/whatsapp-image-2022-09-24-at-6.21.12-pm-588x715.jpeg\" alt title></a>\n                    <div class=\"text__block text-white\">\n                        <p class=\"text__title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".text__title, .social__wrap\"><a href=\"javascript:open_page('dr-zid');\" class=\"text-success\">د.زيد الشعلان</a></p>\n                        <p class=\"text__descr mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".text__descr\">جراحة الأنف و الأذن</p>\n                        <div class=\"social__wrap\" mbr-list mbr-list-grow=\"socialCount\" mbr-if=\"socialCount > 0\">\n                            <div class=\"icons\">\n                                <div class=\"border__radius\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-twitter socicon\" style=\"font-size: 20px;\"></span>\n                                </div>\n                            </div>\n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-lg-3 col-sm-6\">\n                <div class=\"image\">\n                    <a href=\"javascript:open_page('dr-ayman');\"><img src=\"@PROJECT_PATH@/assets/images/whatsapp-image-2022-09-24-at-6.21.11-pm-1-570x853.jpeg\" alt title></a>\n                    <div class=\"text__block text-white\">\n                        <p class=\"text__title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".text__title, .social__wrap\"><a href=\"javascript:open_page('dr-ayman');\" class=\"text-white\">أيمن أمونة</a></p>\n                        <p class=\"text__descr mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".text__descr\">النطق و التخاطب</p>\n                        <div class=\"social__wrap\" mbr-list mbr-list-grow=\"socialCount\" mbr-if=\"socialCount > 0\">\n                            <div class=\"icons\">\n                                <div class=\"border__radius\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-twitter socicon\" style=\"font-size: 20px;\"></span>\n                                </div>\n                            </div>\n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-lg-3 col-sm-6\">\n                <div class=\"image\">\n                    <a href=\"javascript:open_page('dr-horiya');\"><img src=\"@PROJECT_PATH@/assets/images/whatsapp-image-2022-09-24-at-6.21.11-pm-476x713.jpeg\" alt title></a>\n                    <div class=\"text__block text-white\">\n                        <p class=\"text__title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".text__title, .social__wrap\"><a href=\"javascript:open_page('dr-horiya');\" class=\"text-white\">د.حورية مهند</a></p>\n                        <p class=\"text__descr mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".text__descr\">النطق والتخاطب</p>\n                        <div class=\"social__wrap\" mbr-list mbr-list-grow=\"socialCount\" mbr-if=\"socialCount > 0\">\n                            <div class=\"icons\">\n                                <div class=\"border__radius\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-twitter socicon\" style=\"font-size: 20px;\"></span>\n                                </div>\n                            </div>\n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-lg-3 col-sm-6\">\n                <div class=\"image\">\n                    <a href=\"javascript:open_page('dr-isha');\"><img src=\"@PROJECT_PATH@/assets/images/whatsapp-image-2022-09-24-at-6.21.11-pm-570x853.jpeg\" alt title></a>\n                    <div class=\"text__block text-white\">\n                        <p class=\"text__title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".text__title, .social__wrap\"><a href=\"javascript:open_page('dr-isha');\" class=\"text-white\">د.عائشة ماجد حمايدة</a></p>\n                        <p class=\"text__descr mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".text__descr\">النطق والتخاطب</p>\n                        <div class=\"social__wrap\" mbr-list mbr-list-grow=\"socialCount\" mbr-if=\"socialCount > 0\">\n                            <div class=\"icons\">\n                                <div class=\"border__radius\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-twitter socicon\" style=\"font-size: 20px;\"></span>\n                                </div>\n                            </div>\n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n        \n        </div>\n\n\n\n    </div>\n</section>",
           "_cid": "tirb996Kfq",
           "_anchor": "team1-1j",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -2727,7 +2729,7 @@
         {
           "_name": "people4",
           "_sourceTheme": "creatorm5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"people4\" group=\"People\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"10\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Items</header>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Name\" name=\"showName\" checked>\n        <input type=\"checkbox\" title=\"Role\" name=\"showRole\" checked>\n        <header>Socials</header>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\" checked>\n        <select title=\"Social Count\" name=\"iconsCount\" condition=\"showIcons == true\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n        </select>\n        <input type=\"color\" title=\"Color 1\" name=\"icon1\" value=\"#119c29\" condition=\"showIcons == true\">\n        <input type=\"color\" title=\"Color 2\" name=\"icon2\" value=\"#ffd700\" condition=\"showIcons == true &amp;&amp; iconsCount > 1\">\n        <input type=\"color\" title=\"Color 3\" name=\"icon3\" value=\"#4da7de\" condition=\"showIcons == true &amp;&amp; iconsCount > 2\">\n        <input type=\"color\" title=\"Color 4\" name=\"icon4\" value=\"#c92619\" condition=\"showIcons == true &amp;&amp; iconsCount > 3\">\n        <input type=\"color\" title=\"Color 5\" name=\"icon5\" value=\"#134785\" condition=\"showIcons == true &amp;&amp; iconsCount > 4\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/creatorm5/components/_images/background1.jpg\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"shadow\">\n            <div class=\"row al\">\n                <div class=\"col-auto\">\n                    <img src=\"@PROJECT_PATH@/assets/images/whatsapp-image-2022-09-24-at-6.21.12-pm-588x715.jpeg\" alt=\"Mobirise\" class=\"align\">\n                </div>\n                <div class=\"col\">\n                    <h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".card-title\" mbr-if=\"showName\">&nbsp;د.زيد الشعلان</h5>\n                    <h5 class=\"card-subtitle mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".card-subtitle\" mbr-if=\"showRole\">استشاري جراحة الأنف و الأذن و الحنجرة<div>ستشاري جراحة تجميل الوجه والرقبة و الجراحة الترميمية</div></h5>\n                    <h5 class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text, .mbr-social-likes\" mbr-if=\"showText\"><div><br></div>المؤهلات:<br><div>- الزمالة الامريكية في جراحة تجميل الوجه و الرقبة و الجراحة الترميمية</div><div>منجامعة“توماسجيفيرسون” (فيلاديلفيا،امريكا) الزمالة الامريكية في جراحة تجميل الوجه و الرقبة و الجراحة الترميمية&nbsp;</div><div><span style=\"font-size: 0.9rem;\">- من جامعة “تينيسي” (ميمفيس،امريكيا) الزمالة الامريكية من ا لأكاديمية الأمريكية لجراحة تجميل الوجه و الجراحة الترميمية AAFPRS</span><br></div><div>- الزمالة الامريكية من ا لأكاديمية ا لأمريكية لجراحة تجميل الوجه و الجراحة الترميمية AAFPRS</div><br><div>يرى جميع حالات تجميل الانف والوجه و الرقبة ، الجراحية و غير الجراحية</div><br><div>اجراءات العيادة :</div><div>انواع حقن الفلر المختلفة للوجه</div><div>حقن البوتكس </div><div>عمليات التجميل المصغرة تحت التخدير الموضعي بالعيادة</div><br><br><div>العمليات :</div><div>- عملية شدالوجه والرقبة</div><div>- تجميل ا لانف</div><div>- تعديل الحاجز ا لانفي</div><div>- شفط دهون الرقبة</div><div>- شد الجفون</div><div>- شد الحواجب</div><div>- تصغير/شد الجبهة</div><div>- حشوات تكبير الدقن</div><div>- حشوات تكبير الشفايف</div><div>- تجميل / تصحيح الاذان البارزة</div><div>- حقن الدهون الذاتية بالوجه</div><div>- ازالة الفلر الدائم ومعالجة مضاعفاته&nbsp;</div><br><div><br></div></h5>\n                    <div class=\"mbr-social-likes\" mbr-if=\"showIcons\">\n                        <span class=\"btn btn-social socicon-bg-youtube youtube mx-2\">\n                            <a href=\"https://wa.me/966502949133\"><span mbr-icon class=\"mbr-iconfont socicon-whatsapp socicon\"></span></a>\n                        </span>\n                        <span class=\"btn btn-social socicon-bg-facebook facebook mx-2\" mbr-if=\"iconsCount > 1\">\n                            <a href=\"https://www.snapchat.com/add/dr.alshaalan\"><span mbr-icon class=\"mbr-iconfont socicon-snapchat socicon\"></span></a>\n                        </span>\n                        <span class=\"btn btn-social twitter socicon-bg-twitter mx-2\" mbr-if=\"iconsCount > 2\">\n                            <a href=\"https://twitter.com/dralshaalan\"><span mbr-icon class=\"mbr-iconfont socicon-twitter socicon\"></span></a>\n                        </span>\n                        <span class=\"btn btn-social pinterest socicon-bg-pinterest mx-2\" mbr-if=\"iconsCount > 3\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-pinterest socicon\"></span>\n                        </span>\n                        <span class=\"btn btn-social mailru socicon-bg-mail mx-2\" mbr-if=\"iconsCount > 4\">\n                            <span mbr-icon class=\"mbr-iconfont mobi-mbri-letter mobi-mbri\"></span>\n                        </span>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"people4\" group=\"People\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"10\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Items</header>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Name\" name=\"showName\" checked>\n        <input type=\"checkbox\" title=\"Role\" name=\"showRole\" checked>\n        <header>Socials</header>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\" checked>\n        <select title=\"Social Count\" name=\"iconsCount\" condition=\"showIcons == true\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n        </select>\n        <input type=\"color\" title=\"Color 1\" name=\"icon1\" value=\"#119c29\" condition=\"showIcons == true\">\n        <input type=\"color\" title=\"Color 2\" name=\"icon2\" value=\"#ffd700\" condition=\"showIcons == true &amp;&amp; iconsCount > 1\">\n        <input type=\"color\" title=\"Color 3\" name=\"icon3\" value=\"#4da7de\" condition=\"showIcons == true &amp;&amp; iconsCount > 2\">\n        <input type=\"color\" title=\"Color 4\" name=\"icon4\" value=\"#c92619\" condition=\"showIcons == true &amp;&amp; iconsCount > 3\">\n        <input type=\"color\" title=\"Color 5\" name=\"icon5\" value=\"#134785\" condition=\"showIcons == true &amp;&amp; iconsCount > 4\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/creatorm5/components/_images/background1.jpg\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"shadow\">\n            <div class=\"row al\">\n                <div class=\"col-auto\">\n                    <img src=\"@PROJECT_PATH@/assets/images/whatsapp-image-2022-09-24-at-6.21.12-pm-588x715.jpeg\" alt=\"Mobirise\" class=\"align\">\n                </div>\n                <div class=\"col\">\n                    <h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".card-title\" mbr-if=\"showName\">&nbsp;د.زيد الشعلان</h5>\n                    <h5 class=\"card-subtitle mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".card-subtitle\" mbr-if=\"showRole\">استشاري جراحة الأنف و الأذن و الحنجرة<div>ستشاري جراحة تجميل الوجه والرقبة و الجراحة الترميمية</div></h5>\n                    <h5 class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text, .mbr-social-likes\" mbr-if=\"showText\"><div>استشلري جراحة و أمراض النف و الذن و الحنجرة</div><div>زميل كلية الجراحي اللكية البريطانية</div><div>عمل سابقا كرئيس لقسم النف و الذن و الحنجرة</div><div>ثم مديرا لستشفى اللك عبدالعزيز الجامعي</div><div>بدأ عيادته الخاصة في عام 1987م ، و تعتبر من أوائل العيادات الخاصة في الملكة</div><div>بدأ العيادة الخيرية في عام 1991م ، و توسعت و مازالت مستمرة الى الن</div></h5>\n                    <div class=\"mbr-social-likes\" mbr-if=\"showIcons\">\n                        <span class=\"btn btn-social socicon-bg-youtube youtube mx-2\">\n                            <a href=\"https://wa.me/966502949133\"><span mbr-icon class=\"mbr-iconfont socicon-whatsapp socicon\"></span></a>\n                        </span>\n                        <span class=\"btn btn-social socicon-bg-facebook facebook mx-2\" mbr-if=\"iconsCount > 1\">\n                            <a href=\"https://www.snapchat.com/add/dr.alshaalan\"><span mbr-icon class=\"mbr-iconfont socicon-snapchat socicon\"></span></a>\n                        </span>\n                        <span class=\"btn btn-social twitter socicon-bg-twitter mx-2\" mbr-if=\"iconsCount > 2\">\n                            <a href=\"https://twitter.com/dralshaalan\"><span mbr-icon class=\"mbr-iconfont socicon-twitter socicon\"></span></a>\n                        </span>\n                        <span class=\"btn btn-social pinterest socicon-bg-pinterest mx-2\" mbr-if=\"iconsCount > 3\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-pinterest socicon\"></span>\n                        </span>\n                        <span class=\"btn btn-social mailru socicon-bg-mail mx-2\" mbr-if=\"iconsCount > 4\">\n                            <span mbr-icon class=\"mbr-iconfont mobi-mbri-letter mobi-mbri\"></span>\n                        </span>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_styles": {
             "padding-top": "(@paddingTop * 1rem)",
             "padding-bottom": "(@paddingBottom * 1rem)",
@@ -2884,6 +2886,171 @@
           "_anchor": "dr-zid",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "people4",
+          "_sourceTheme": "creatorm5",
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            ".row": {
+              "align-items": "center",
+              "justify-content": "space-between"
+            },
+            ".mbr-section-title": {
+              "width": "100%",
+              "text-align": "left",
+              "margin-bottom": "24px",
+              "line-height": "1.171em"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#4c4c4c",
+              "width": "100%",
+              "text-align": "left"
+            },
+            ".mbr-text": {
+              "color": "#5f5d68",
+              "margin-bottom": "48px"
+            },
+            ".right-side": {
+              "max-width": "554px",
+              "margin-right": "60px"
+            },
+            ".mbr-section-btn": {
+              "width": "auto",
+              "display": "inline"
+            },
+            ".margin": {
+              "margin-right": "14px"
+            },
+            ".shadow": {
+              "margin": "auto",
+              "max-width": "860px",
+              "padding": "79px 76px",
+              "box-shadow": "0 5px 16px 0 rgba(8, 15, 52, 0.07)",
+              "overflow": "hidden",
+              "border-style": "solid",
+              "border-width": "1px",
+              "border-color": "#eff0f6",
+              "border-radius": "14px",
+              "background-color": "#fff"
+            },
+            ".socicon-bg-youtube": {
+              "background-color": "@icon1"
+            },
+            ".socicon-bg-facebook": {
+              "background-color": "@icon2"
+            },
+            ".socicon-bg-twitter": {
+              "background-color": "@icon3"
+            },
+            ".socicon-bg-pinterest": {
+              "background-color": "@icon4"
+            },
+            ".socicon-bg-mail": {
+              "background-color": "@icon5"
+            },
+            ".btn-social": {
+              "margin-right": "3px !important",
+              "margin-left": "3px !important",
+              "margin-top": "0 !important",
+              "margin-bottom": "0 !important",
+              "font-size": "14px",
+              "border-radius": "50%",
+              "padding": "0",
+              "width": "32px",
+              "height": "32px",
+              "line-height": "44px",
+              "text-align": "center",
+              "position": "relative",
+              "border": "none !important",
+              "border-color": "@primaryColor",
+              "cursor": "pointer",
+              ".mbr-iconfont": {
+                "top": "0",
+                "line-height": "22px",
+                "width": "22px",
+                "color": "#fff"
+              },
+              "&:hover": {
+                "color": "#fff"
+              },
+              "& + .btn": {
+                "margin-left": "0.1rem"
+              }
+            },
+            "img": {
+              "max-width": "238px",
+              "height": "auto",
+              "border-radius": "50%"
+            },
+            ".mbr-social-likes": {
+              "max-width": "454px"
+            },
+            ".card-title": {
+              "margin-bottom": "8px",
+              "color": "#14142b",
+              "text-align": "right"
+            },
+            ".card-subtitle": {
+              "margin-bottom": "22px",
+              "color": "#14287f",
+              "text-align": "right"
+            },
+            ".card-text": {
+              "margin-bottom": "22px",
+              "color": "#8c8c95"
+            },
+            ".card-title, .card-subtitle, .card-text": {
+              "width": "auto"
+            },
+            "@media (max-width: 770px)": {
+              ".shadow": {
+                "padding": "59px 56px"
+              }
+            },
+            "@media (max-width: 640px)": {
+              ".al": {
+                "flex-direction": "column"
+              },
+              ".shadow": {
+                "padding": "39px 36px"
+              },
+              "img": {
+                "padding-bottom": "20px"
+              },
+              ".card-title, .card-subtitle, .card-text, .mbr-social-likes": {
+                "text-align": "center"
+              }
+            },
+            "@media (max-width: 600px)": {
+              ".shadow": {
+                "padding": "35px 15px"
+              }
+            },
+            ".mbr-iconfont": {
+              "margin-left": "0"
+            },
+            ".card-text, .mbr-social-likes": {
+              "text-align": "right"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"people4\" group=\"People\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"10\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Items</header>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Name\" name=\"showName\" checked>\n        <input type=\"checkbox\" title=\"Role\" name=\"showRole\" checked>\n        <header>Socials</header>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n        <select title=\"Social Count\" name=\"iconsCount\" condition=\"showIcons == true\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\" selected>5</option>\n        </select>\n        <input type=\"color\" title=\"Color 1\" name=\"icon1\" value=\"#c4302b\" condition=\"showIcons == true\">\n        <input type=\"color\" title=\"Color 2\" name=\"icon2\" value=\"#3e5b98\" condition=\"showIcons == true &amp;&amp; iconsCount > 1\">\n        <input type=\"color\" title=\"Color 3\" name=\"icon3\" value=\"#4da7de\" condition=\"showIcons == true &amp;&amp; iconsCount > 2\">\n        <input type=\"color\" title=\"Color 4\" name=\"icon4\" value=\"#c92619\" condition=\"showIcons == true &amp;&amp; iconsCount > 3\">\n        <input type=\"color\" title=\"Color 5\" name=\"icon5\" value=\"#134785\" condition=\"showIcons == true &amp;&amp; iconsCount > 4\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1-2.jpg\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"shadow\">\n            <div class=\"row al\">\n                <div class=\"col-auto\">\n                    <img src=\"@PROJECT_PATH@/assets/images/sparsh-doctor-placeholder-02-1-392x507.png\" alt=\"Mobirise\" class=\"align\">\n                </div>\n                <div class=\"col\">\n                    <h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".card-title\" mbr-if=\"showName\">د.عبدالعزيز الشعلن</h5>\n                    <h5 class=\"card-subtitle mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".card-subtitle\" mbr-if=\"showRole\">استشلري جراحة و أمراض النف و الذن و الحنجرة</h5>\n                    <h5 class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text, .mbr-social-likes\" mbr-if=\"showText\"><div>زميل كلية الجراحي اللكية البريطانية</div><div>عمل سابقا كرئيس لقسم النف و الذن و الحنجرة</div><div>ثم مديرا لستشفى الملك عبدالعزيز الجامعي</div><div>بدأ عيادته الخاصة في عام 1987م ، و تعتبر من أوائل العيادات الخاصة في الملكة</div><div>بدأ العيادة الخيرية في عام 1991م ، و توسعت و مازالت مستمرة الى الان</div></h5>\n                    <div class=\"mbr-social-likes\" mbr-if=\"showIcons\">\n                        <span class=\"btn btn-social socicon-bg-youtube youtube mx-2\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-youtube socicon\"></span>\n                        </span>\n                        <span class=\"btn btn-social socicon-bg-facebook facebook mx-2\" mbr-if=\"iconsCount > 1\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-facebook socicon\"></span>\n                        </span>\n                        <span class=\"btn btn-social twitter socicon-bg-twitter mx-2\" mbr-if=\"iconsCount > 2\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-twitter socicon\"></span>\n                        </span>\n                        <span class=\"btn btn-social pinterest socicon-bg-pinterest mx-2\" mbr-if=\"iconsCount > 3\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-pinterest socicon\"></span>\n                        </span>\n                        <span class=\"btn btn-social mailru socicon-bg-mail mx-2\" mbr-if=\"iconsCount > 4\">\n                            <span mbr-icon class=\"mbr-iconfont mobi-mbri-letter mobi-mbri\"></span>\n                        </span>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "dr-shaalan",
+          "_isUserblock": true,
+          "_cid": "tl2Jq7LN52",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -3929,11 +4096,11 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_cid": "tisr8zOH3G",
+          "_anchor": "menu1-1o",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {},
-          "_anchor": "menu1-1o"
+          "_params": {}
         },
         {
           "alias": false,
@@ -3989,11 +4156,11 @@
           "_PHPplaceholders": [],
           "_isUserblock": true,
           "_cid": "tisr8B1OSp",
+          "_anchor": "header2-1p",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header2-1p"
+          "_params": {}
         },
         {
           "_name": "title2",
@@ -4184,11 +4351,11 @@
           "_PHPplaceholders": [],
           "_isUserblock": true,
           "_cid": "tisr8FIeZJ",
+          "_anchor": "footer2-1v",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "footer2-1v"
+          "_params": {}
         }
       ]
     }
