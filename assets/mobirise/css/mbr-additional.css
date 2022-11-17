@@ -1064,7 +1064,6 @@ body {
   font-family: 'ArbFONTS-ArbFONTS-Janna-LT-Regular';
   font-size: 2.6rem;
   font-weight: 500;
-  letter-spacing: -2px;
 }
 .display-1 > .mbr-iconfont {
   font-size: 4.16rem;
@@ -1072,7 +1071,6 @@ body {
 .display-2 {
   font-family: 'ArbFONTS-ArbFONTS-Janna-LT-Regular';
   font-size: 2rem;
-  line-height: 1.2;
   font-weight: 500;
 }
 .display-2 > .mbr-iconfont {
@@ -1081,8 +1079,8 @@ body {
 .display-4 {
   font-family: 'ArbFONTS-ArbFONTS-Janna-LT-Regular';
   font-size: 0.9rem;
-  line-height: 1.4;
   font-weight: 400;
+  line-height: 1.3rem;
 }
 .display-4 > .mbr-iconfont {
   font-size: 1.44rem;
@@ -1090,7 +1088,6 @@ body {
 .display-5 {
   font-family: 'ArbFONTS-ArbFONTS-Janna-LT-Regular';
   font-size: 1.5rem;
-  line-height: 1.4;
   font-weight: 400;
 }
 .display-5 > .mbr-iconfont {
@@ -1099,7 +1096,6 @@ body {
 .display-7 {
   font-family: 'ArbFONTS-ArbFONTS-Janna-LT-Regular';
   font-size: 1rem;
-  line-height: 1.5;
 }
 .display-7 > .mbr-iconfont {
   font-size: 1.6rem;
@@ -1113,22 +1109,18 @@ body {
   .display-1 {
     font-size: 2.08rem;
     font-size: calc( 1.56rem + (2.6 - 1.56) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.56rem + (2.6 - 1.56) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 1.6rem;
     font-size: calc( 1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
     font-size: 0.72rem;
     font-size: calc( 0.965rem + (0.9 - 0.965) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (0.965rem + (0.9 - 0.965) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
     font-size: 1.2rem;
     font-size: calc( 1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -1587,7 +1579,6 @@ a:hover {
 .form-control {
   font-family: 'ArbFONTS-ArbFONTS-Janna-LT-Regular';
   font-size: 1rem;
-  line-height: 1.5;
 }
 .form-control > .mbr-iconfont {
   font-size: 1.6rem;
@@ -5380,7 +5371,6 @@ a.text-black {
   width: 100%;
   text-align: left;
   margin-bottom: 24px;
-  line-height: 1.171em;
 }
 .cid-tis2dl8ZbR .mbr-section-subtitle {
   color: #4c4c4c;
